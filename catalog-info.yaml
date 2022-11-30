@@ -4,7 +4,7 @@ metadata:
   name: springboot-kotlin-service
   description: Standard SpringBoot Kotlin Service.
   annotations:
-    jenkins.io/job-full-name: "springboot-kotlin-service"
+    jenkins.io/job-full-name: "tw-backstage-accelerator/backstage-infra"
     #github.com/project-slug: vigneshTw/springboot-kotlin-service
     backstage.io/techdocs-ref: dir:.
     prometheus.io/rule: memUsage|component,node_memory_Active_bytes|instance,sum by (instance) (node_cpu_seconds_total)|instance
